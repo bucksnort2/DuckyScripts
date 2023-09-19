@@ -32,7 +32,7 @@ while running:  # Main game loop
                 running = False  # Exit the loop when the ESC key is pressed
 
     text_color = (random.randint(0, 255), random.randint(0, 255), random.randint(0, 255))
-    text = font.render(":-) RUBBER DUCKS WILL TAKE OVER THE OCEANS! (-: )", True, text_color)
+    text = font.render(":-) RUBBER DUCKS WILL TAKE OVER THE OCEANS! (-:", True, text_color)
 
     x_offset = random.randint(-50, 50)
     y_offset = random.randint(-50, 50)
